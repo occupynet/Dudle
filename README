@@ -1,0 +1,56 @@
+Author:
+   Benjamin Kellermann <Benjamin dot Kellermann at tu-dresden in Germany>
+Requirements:
+ * ruby >=1.8
+ * git >=1.6.5 (preferred and default setting) or bzr
+ * libgettext-ruby (for localization)
+License: 
+   GNU AGPL v3 or higher
+   see file License
+ 
+=== Installation ===
+1. Place this application into a directory where cgi-scripts are evaluated.
+2. If you want to change some configuration, state it in the file »config.rb«
+   (see config_sample.rb for help)
+   to start with a default configuration.
+3. The webserver needs the permission to write into the directory 
+4. You have to build a .mo file from the .po file in order to use the 
+   localization. Type:
+      make
+   This requires libgettext-ruby-util, potool, and make to be installed.
+     sudo aptitude install libgettext-ruby-util potool make
+   If this does not work for you, you can download the .mo files from another
+   server, e.g., put https://dudle.inf.tu-dresden.de/locale/de/dudle.mo
+   into the directory locale/de.
+5. In order to let access control work correctly, the webserver needs 
+   auth_digest support. It therefore may help to type:
+     sudo a2enmod auth_digest
+6. In order to get atom-feed support you need ruby-ratom to be installed. E.g.:
+     sudo aptitude install rubygems ruby-dev libxml2-dev zlib1g-dev
+     sudo gem install ratom
+
+=== Pimp your Installation ===
+ * If you want to create your own Stylesheet, you just have to put it in
+   the folder »$DUDLE_HOME_FOLDER/css/«. Afterwards you may config this one
+   to be the default Stylesheet. Examples can be found here:
+     https://dudle.inf.tu-dresden.de/css/
+   This is a bazaar repository as well, so you may branch it if you want…
+     cd $DUDLE_HOME_FOLDER/css
+     bzr branch https://dudle.inf.tu-dresden.de/css/ .
+   Send me your Stylesheet if you want it to appear at 
+   https://dudle.inf.tu-dresden.de
+ * If you want to extend the functionality you might want to place a file
+   »main.rb« in $DUDLE_HOME_FOLDER/extension/$YOUR_EXTENSION/main.rb
+   Examples can be found here:
+     https://dudle.inf.tu-dresden.de/unstable/extensions/
+     which again are repositories ;--) e.g.:
+     cd $DUDLE_HOME_FOLDER/dudle/extensions/
+     bzr branch https://dudle.inf.tu-dresden.de/unstable/extensions/10_participate/
+     bzr branch https://dudle.inf.tu-dresden.de/unstable/extensions/symcrypt/
+
+=== Translators ===
+If you set $DUDLE_POEDIT_AUTO to your lang, poedit will launch automatically when building the application.
+E.g.:
+	export DUDLE_POEDIT_AUTO=fr
+	bzr pull
+	make # will launch poedit if new french strings are to be translated

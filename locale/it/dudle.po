@@ -1,0 +1,801 @@
+# ###########################################################################
+# Copyright 2011 Eros Pedrini                                              #
+#                                                                          #
+# This file is part of dudle.                                              #
+#                                                                          #
+# Dudle is free software: you can redistribute it and/or modify it under   #
+# the terms of the GNU Affero General Public License as published by       #
+# the Free Software Foundation, either version 3 of the License, or        #
+# (at your option) any later version.                                      #
+#                                                                          #
+# Dudle is distributed in the hope that it will be useful, but WITHOUT ANY #
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or        #
+# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public     #
+# License for more details.                                                #
+#                                                                          #
+# You should have received a copy of the GNU Affero General Public License #
+# along with dudle.  If not, see <http://www.gnu.org/licenses/>.           #
+# ###########################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-07-21 07:48+0200\n"
+"PO-Revision-Date: 2011-05-10 07:31+0200\n"
+"Last-Translator: Eros Pedrini\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: about.cgi:29
+msgid ""
+"If you find a bug or have something else which disturbes you, please let me "
+"know: <a href=\"mailto:Benjamin_dot_Kellermann@tu-dresden_in_germany?"
+"subject=Feedback%20to%20dudle\">give feedback</a>"
+msgstr ""
+"Se trovi degli errori o qualsiasi altra cosa che ti infastidisce, fammelo "
+"sapere: <a href=\"mailto:Benjamin_dot_Kellermann@tu-dresden_in_germany?"
+"subject=Feedback%20to%20dudle\">scrivimi</a>"
+
+#: about.cgi:31
+msgid "--verbose"
+msgstr "--verbose"
+
+#: about.cgi:32
+msgid ""
+"The sourcecode of this application is available under the terms of <a "
+"href='http://www.fsf.org/licensing/licenses/agpl-3.0.html'>AGPL Version 3</a>"
+msgstr ""
+"Il codice sorgente di questa applicazione è reso disponibile secondo i "
+"termini della licenza <a href='http://www.fsf.org/licensing/licenses/"
+"agpl-3.0.html'>AGPL Versione 3</a>"
+
+#: about.cgi:34
+msgid ""
+"You can get the sourcecode, using <a href='http://bazaar-vcs.org/'>bazaar</"
+"a>:"
+msgstr ""
+"Il codice sorgente è disponibile utilizzando <a href='http://bazaar-vcs."
+"org/'>bazaar</a>:"
+
+#: authorization_required.cgi:36 authorization_required.cgi:52
+msgid "Authorization Required"
+msgstr "Autorizzazione Richiesta"
+
+#: authorization_required.cgi:39
+msgid "The configuration of this Poll is protected by password!"
+msgstr "La configurazione di questo Sondaggio è protetta da password!"
+
+#: authorization_required.cgi:41
+msgid "This Poll is protected by password!"
+msgstr "Questo Sondaggio è protetto da password!"
+
+#: authorization_required.cgi:43
+msgid "In order to proceed, you have to give the password for user %{user}."
+msgstr "Per procedere devi assegnare una password all'utente %{user}."
+
+#: authorization_required.cgi:53 not_found.cgi:36
+msgid "Return to dudle home and Schedule a new Poll"
+msgstr "Ritorna alla pagina principale di Dudle e Programma un nuovo Sondaggio"
+
+#: authorization_required.cgi:54
+msgid "You have to authorize yourself in order to access this page!"
+msgstr "Devi essere autorizzato per accedere a questa pagina!"
+
+#: customize.cgi:31 customize.rb:31
+msgid "Customize Personal Settings"
+msgstr "Modifica le Impostazione Personali"
+
+#: customize.cgi:32 customize.rb:32
+msgid "You need cookies enabled in order to personalize your settings."
+msgstr ""
+"Devi avere il supporto ai cookie abilitato nel tuo browser per "
+"personalizzare le tue impostazioni."
+
+#: customize.cgi:39 customize.rb:39
+msgid "Current Setting"
+msgstr "Impostazioni Correnti"
+
+#: customize.cgi:40 customize.rb:40
+msgid "Description"
+msgstr "Descrizione"
+
+#: customize.cgi:57 customize.rb:57
+msgid "Use special characters"
+msgstr "Utilizza caratteri speciali"
+
+#: customize.cgi:57 customize.rb:57
+msgid "Use this option if you see the characters in the parenthesis."
+msgstr ""
+"Utilizza questa opzione se ci sono dei caratteri all'interno di parentesi."
+
+#: customize.cgi:58 customize.rb:58
+msgid "Use only normal strings"
+msgstr "Usa solamente frasi composte da caratteri standard"
+
+#: customize.cgi:58 customize.rb:58
+msgid "Use this option if you have problems with some characters."
+msgstr "Usa questa opzione solo se riscontri problemi con alcuni caratteri."
+
+#: customize.cgi:61 customize.rb:61
+msgid "Charset"
+msgstr "Insieme di Caratteri"
+
+#: customize.cgi:66 customize.rb:66
+msgid "Stylesheet"
+msgstr "Foglio di Stile"
+
+#: customize.cgi:82 customize.rb:82
+msgid "Default Username"
+msgstr "Nome Utente Predefinito"
+
+#: customize.cgi:83 access_control.rb:73 customize.rb:83
+msgid "Username:"
+msgstr "Nome Utente:"
+
+#: customize.cgi:107 customize.rb:107
+msgid "Edit"
+msgstr "Modifica"
+
+#: customize.cgi:117 access_control.rb:120 customize.rb:117 poll.rb:296
+msgid "Save"
+msgstr "Salva"
+
+#: customize.cgi:120 access_control.rb:116 customize.rb:120 delete_poll.rb:113
+#: poll.rb:334
+msgid "Delete"
+msgstr "Elimina"
+
+#: error.cgi:25 error.cgi:27
+msgid "Error"
+msgstr "Errore"
+
+#: error.cgi:46
+msgid "The following error was printed:"
+msgstr "E` stato stampato il seguente errore:"
+
+#: error.cgi:50
+msgid ""
+"Hi!\n"
+"\n"
+"I found a bug in your application at %{urlofsite}.\n"
+"I did the following:\n"
+"\n"
+"<please describe what you did>\n"
+"<e.g., I wanted to sent a comment to the poll.>\n"
+"\n"
+"I am using <please state your browser and operating system>\n"
+"%{errormessage}\n"
+"Yours,\n"
+msgstr ""
+"Ciao!\n"
+"\n"
+"Ho trovato un problema nella tua applicazione: %{urlofsite}.\n"
+"Stavo facendo la seguente operazione:\n"
+"\n"
+"<descrivi quello che stavi facendo>\n"
+"<e.g., Stavo inviando un commento al Sondaggio.>\n"
+"\n"
+"Stavo usando <indica il tuo browser e il tuo sistema operativo>\n"
+"%{errormessage}\n"
+"Cordiali Saluti,\n"
+
+#: error.cgi:51
+msgid "Bug in dudle"
+msgstr "Errore in Dudle"
+
+#: error.cgi:53
+msgid ""
+"An error occured while executing dudle.<br/>Please send an error report, "
+"including your browser, operating system, and what you did to %{admin}."
+msgstr ""
+"Si è verificato un errore durante l'esecuzione di Dudle.<br/>Si prega di "
+"inviare una segnalazione errori a %{admin}., fornedo il browser, il sistema "
+"operativo che stavi usando e cosa stavi facendo."
+
+#: error.cgi:56
+msgid "Please include the following as well:"
+msgstr "Si prega di fornire anche le seguenti informazioni:"
+
+#: example.cgi:60 dudle.rb:89
+msgid "Examples"
+msgstr "Esempi"
+
+#: example.cgi:61
+msgid ""
+"If you want to play with the application, you may want to take a look at "
+"these example polls:"
+msgstr ""
+"Se vuoi capire come funziona l'applicazione, puoi provare a guardare questi "
+"sondaggi d'esempio:"
+
+#: index.cgi:32
+msgid "Please enter a descriptive title."
+msgstr "Si prega di inserire un titolo significativo."
+
+#: index.cgi:48
+msgid "Custom address may only contain letters, numbers, and dashes."
+msgstr ""
+"Gli indirizzi personalizzati possono essere composti solamente da lettere, "
+"numeri e trattini (-)"
+
+#: index.cgi:50
+msgid "A Poll with this address already exists."
+msgstr "Un Sondaggio con questo indirizzo esiste già."
+
+#: index.cgi:69
+msgid ""
+"The poll was created successfully. The link to your new poll is: %{link}"
+msgstr "Il sondaggio è stato creato. Il link al tuo nuovo sondaggio è: %{link}"
+
+#: index.cgi:76
+msgid "Create New Poll"
+msgstr "Crea un Nuovo Sondaggio"
+
+#: index.cgi:78
+msgid "Title"
+msgstr "Titolo"
+
+#: index.cgi:79
+msgid "Type"
+msgstr "Tipo"
+
+#: index.cgi:80
+msgid "Event Schedule Poll (e.&thinsp;g., schedule a meeting)"
+msgstr ""
+"Sondaggio per la Programmazione di un Evento (e.&thinsp;g., programmazione "
+"di un incontro) "
+
+#: index.cgi:81
+msgid "Normal Poll (e.&thinsp;g., vote for what is the best coffee)"
+msgstr "Sondaggio Tradizionale (e.&thinsp;g., vora per il caffé migliore)"
+
+#: index.cgi:82
+msgid "Custom address (optional)"
+msgstr "Indirizzo personalizzato (opzionale)"
+
+#: index.cgi:83
+msgid "May contain letters, numbers, and dashes."
+msgstr "Può essere composto da lettere, numeri e trattini (-)."
+
+#: index.cgi:85
+msgid "Create"
+msgstr "Crea"
+
+#: not_found.cgi:29
+msgid "Poll Not Found"
+msgstr "Sondaggio Non Trovato"
+
+#: not_found.cgi:31
+msgid "The requested Poll was not found."
+msgstr "Il Sondaggio richiesto non è stato trovato."
+
+#: not_found.cgi:32
+msgid "There are several reasons, why a Poll is deleted:"
+msgstr ""
+"Possono esistere varie ragioni del perché un Sondaggio è stato cancellato:"
+
+#: not_found.cgi:33
+msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
+msgstr ""
+"Qualcuno ha selezionato “Elimina Sondaggio” e ha cancellato il sondaggio "
+"manualmente."
+
+#: not_found.cgi:34
+msgid ""
+"The Poll was deleted by the administrator because it was not accessed for a "
+"long time."
+msgstr ""
+"Il Sondaggio è stato eliminato dall'amministratore poiché nessuno vi "
+"accedeva da molto tempo."
+
+#: not_found.cgi:35
+msgid ""
+"If you think, the deletion was done by error, please contact the "
+"adminsistrator of the system."
+msgstr ""
+"Se credi che l'eliminazione sia stata accidentale, puoi contattare "
+"l'amministratore del servizio."
+
+#: access_control.rb:86
+msgid "Password"
+msgstr "Password"
+
+#: access_control.rb:87
+msgid "repeat"
+msgstr "ripeti"
+
+#: access_control.rb:113
+msgid ""
+"You have to remove the participant user before you can remove the "
+"administrator."
+msgstr ""
+"Prima di poter rimuovere l'amministratore, devi rimuovere tutti gli altri "
+"partecipanti."
+
+#: access_control.rb:138
+msgid "Only letters and digits are allowed in the username."
+msgstr "Il Nome Utente può essere composto solo da lettere e numeri."
+
+#: access_control.rb:140
+msgid "Passwords did not match."
+msgstr "La Password non corrisponde."
+
+#: access_control.rb:173
+msgid "Change Access Control Settings"
+msgstr "Cambia le Impostazioni per il Controllo degli Accessi"
+
+#: access_control.rb:177
+msgid "not activated"
+msgstr "non attivato"
+
+#: access_control.rb:179
+msgid "Activate"
+msgstr "Attiva"
+
+#: access_control.rb:182
+msgid "will be activated when at least an admin user is configured"
+msgstr "verrà attivato quando almeno un amministratore sarà configurato"
+
+#: access_control.rb:184
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: access_control.rb:186
+msgid "activated"
+msgstr "attivato"
+
+#: access_control.rb:187
+msgid ""
+"You have to remove all users before you can deactivate the access control "
+"settings."
+msgstr ""
+"Prima di poter disattivare le impostazioni per il controllo dell'accesso "
+"bisogna eliminare tutti gli utenti."
+
+#: access_control.rb:191
+msgid ""
+"You will be asked for the password you entered here after pressing save!"
+msgstr ""
+"La password che hai inserito qui, ti verrà richiesta dopo che hai premuto "
+"Salva!"
+
+#: access_control.rb:194
+msgid ""
+"The user ‘admin’ has access to the vote as well as the configuration "
+"interface."
+msgstr ""
+"L'utente ‘amministratore’ ha accesso all'interfaccia di votazione e "
+"all'interfaccia di configurazione."
+
+#: access_control.rb:200
+msgid "The user ‘participant’ has only access to the vote interface."
+msgstr ""
+"L'utente ‘partecipante’ ha accesso solamente all'interfaccia di votazione."
+
+#: access_control.rb:206
+msgid "Access control:"
+msgstr "Controllo dell'Accesso:"
+
+#: delete_poll.rb:29
+msgid "Yes, I know what I am doing!"
+msgstr "Si, so quello che sto facendo!"
+
+#: delete_poll.rb:30
+msgid "I hate these stupid entry fields."
+msgstr "Odio tutti questi campi da compilare."
+
+#: delete_poll.rb:31
+msgid "I am aware of the consequences."
+msgstr "Conosco le conseguenze."
+
+#: delete_poll.rb:32
+msgid "Please delete this poll."
+msgstr "Si prega di cancellare questo sondaggio."
+
+#: delete_poll.rb:43
+msgid "Example polls can not be deleted."
+msgstr ""
+
+#: delete_poll.rb:57
+msgid "The poll was deleted successfully!"
+msgstr "Il sondaggio è stato cancellato!"
+
+#: delete_poll.rb:58
+msgid ""
+"If this was done by accident, please contact the administrator of the "
+"system. The poll can be recovered for an indeterministic amount of time, "
+"maybe it is already to late."
+msgstr ""
+"Se questo è stato fatto per sbaglio, contatta l'amministratore del servizio. "
+"Il sondaggio potrebbe essere ripristinato se non è troppo tardi."
+
+#: delete_poll.rb:60
+msgid "Things you can do now are"
+msgstr "Quello che puoi fare ora"
+
+#: delete_poll.rb:61
+msgid "Return to dudle home and schedule a new poll"
+msgstr "Ritorna alla pagina principale di Dudle e Programma un nuovo Sondaggio"
+
+#: delete_poll.rb:62
+msgid "Browse Wikipedia"
+msgstr "Vai su Wikipedia"
+
+#: delete_poll.rb:63
+msgid "Search something with Google"
+msgstr "Cerca in Google"
+
+#: delete_poll.rb:89
+msgid "To delete the poll, you have to type:"
+msgstr "Per eliminare un sondaggio, devi scrivere:"
+
+#: delete_poll.rb:97
+msgid "but you typed:"
+msgstr "ma tu hai scritto:"
+
+#: delete_poll.rb:109
+msgid "Delete this Poll"
+msgstr "Cancella questo Sondaggio"
+
+#: delete_poll.rb:110
+msgid "You want to delete the poll named"
+msgstr "Vuoi eliminare il sondaggio che si chiama"
+
+#: delete_poll.rb:111
+msgid "This is an irreversible action!"
+msgstr "Questa azione non può essere annullata!"
+
+#: delete_poll.rb:112
+msgid ""
+"If you are sure in what you are doing, please type “%{question}” into the "
+"form."
+msgstr ""
+"Se sei sicuro di quello che stai facendo, scrivi “%{question}” nel modulo."
+
+#: dudle.rb:73
+msgid "Home"
+msgstr "Home (Pagina Princiaple)"
+
+#: dudle.rb:76
+msgid "Poll"
+msgstr "Sondaggio"
+
+#: dudle.rb:77 history.rb:35
+msgid "History"
+msgstr "Storico"
+
+#: dudle.rb:80
+msgid "Edit Columns"
+msgstr "Modifica le Colonne"
+
+#: dudle.rb:81 invite_participants.rb:38
+msgid "Invite Participants"
+msgstr "Invita i Partecipanti"
+
+#: dudle.rb:82
+msgid "Access Control"
+msgstr "Controllo dell'Accesso"
+
+#: dudle.rb:83
+msgid "Overview"
+msgstr "Panoramica"
+
+#: dudle.rb:86
+msgid "Delete Poll"
+msgstr "Elimina il Sondaggio"
+
+#: dudle.rb:90
+msgid "About"
+msgstr "Informazioni su"
+
+#: dudle.rb:92
+msgid "Customize"
+msgstr "Personalizza"
+
+#: dudle.rb:100
+msgid "Dudle Home"
+msgstr "Pagina Principale di Dudle"
+
+#: dudle.rb:203 dudle.rb:221
+msgid "Previous"
+msgstr "Precedente"
+
+#: dudle.rb:204 dudle.rb:222
+msgid "Next"
+msgstr "Successivo"
+
+#: dudle.rb:205 dudle.rb:223
+msgid "Finish"
+msgstr "Fine"
+
+#: dudle.rb:228
+msgid "All changes were saved sucessfully."
+msgstr "Tutti i cambiamenti sono stati salvati."
+
+#: dudle.rb:228
+msgid "Proceed!"
+msgstr "Procedi!"
+
+#: edit_columns.rb:44
+msgid "Add and Remove Columns"
+msgstr "Aggiungi e Rimuovi Colonne"
+
+#: edit_columns.rb:67 edit_columns.rb:86 timepollhead.rb:248
+msgid "Delete column"
+msgstr "Elimina Colonna"
+
+#: edit_columns.rb:69 edit_columns.rb:84 timepollhead.rb:247
+msgid "Add column"
+msgstr "Aggiungi Colonna"
+
+#: edit_columns.rb:71 edit_columns.rb:88
+msgid "Edit column"
+msgstr "Modifica Colonna"
+
+#: edit_columns.rb:99
+msgid "Undo"
+msgstr "Annulla"
+
+#: edit_columns.rb:99
+msgid "Redo"
+msgstr "Rifai"
+
+#: history.rb:28
+msgid "Poll of Version %{revisionnumber}"
+msgstr "Sondaggio della Versione %{revisionnumber}"
+
+#: history.rb:32
+msgid "Current Poll (Version %{revisionnumber})"
+msgstr "Sondaggio Attuale (Versione %{revisionnumber})"
+
+#: log.rb:111
+msgid "Version"
+msgstr "Versione"
+
+#: log.rb:111
+msgid "Date"
+msgstr "Data"
+
+#: log.rb:111
+msgid "Comment"
+msgstr "Commento"
+
+#: overview.rb:31
+msgid "The next steps are:"
+msgstr ""
+
+#: overview.rb:33
+msgid "Send the link to all participants:"
+msgstr ""
+
+#: overview.rb:34
+msgid "Send this link via email..."
+msgstr "Spedisci questo link via email..."
+
+#: overview.rb:35
+msgid "Visit the poll yourself:"
+msgstr ""
+
+#: overview.rb:36
+msgid "Link to dudle poll about %{polltitle}"
+msgstr "Link al sondaggio di Dudle su %{polltitle}"
+
+#: participate.rb:59
+msgid "The changes were saved, you should be redirected to %{link}."
+msgstr "I cambiamenti sono stati salvati, dovresti essere ridiretto a %{link}."
+
+#: poll.rb:92
+msgid "Edit user %{user}..."
+msgstr "Modifica l'utente %{user}..."
+
+#: poll.rb:96
+msgid "Delete user %{user}..."
+msgstr "Elimina l'utente %{user}..."
+
+#: poll.rb:150
+msgid "Total"
+msgstr "Totale"
+
+#: poll.rb:182
+msgid "Invite"
+msgstr "Invita"
+
+#: poll.rb:183 pollhead.rb:62 timepollhead.rb:158
+msgid "Name"
+msgstr "Nome"
+
+#: poll.rb:228
+msgid "Save Changes"
+msgstr "Salva i Cambiamenti"
+
+#: poll.rb:232
+msgid "Cancel"
+msgstr "Annulla"
+
+#: poll.rb:254
+msgid "Do you really want to delete user %{user}?"
+msgstr "Vuoi veramente eliminare l'utente %{user}?"
+
+#: poll.rb:257
+msgid "Confirm"
+msgstr "Conferma"
+
+#: poll.rb:305
+msgid "Comments"
+msgstr "Commenti"
+
+#: poll.rb:308
+msgid "Sort oldest comment first"
+msgstr "Ordina: prima i commenti più vecchi"
+
+#: poll.rb:311
+msgid "Sort newest comment first"
+msgstr "Ordina: prima i commenti più nuovi"
+
+#: poll.rb:316
+msgid "Go to last comment"
+msgstr "Val all'ultimo commento"
+
+#: poll.rb:329
+msgid "%{user} said on %{time}"
+msgstr "alle %{time}, %{user} ha detto "
+
+#: poll.rb:344
+msgid "Go Up"
+msgstr "Sali"
+
+#: poll.rb:350
+msgid "says"
+msgstr "dice"
+
+#: poll.rb:351
+msgid "Submit Comment"
+msgstr "Invia Commento"
+
+#: poll.rb:369
+msgid "Show history items:"
+msgstr "Mostra gli elementi nello storico:"
+
+#: poll.rb:376
+msgid "All"
+msgstr "Tutti"
+
+#: poll.rb:377
+msgid "Participant related"
+msgstr "Partecipante correlato"
+
+#: poll.rb:378
+msgid "Column related"
+msgstr "Colonna correlata"
+
+#: poll.rb:379
+msgid "Comment related"
+msgstr "Commento correlato"
+
+#: poll.rb:380
+msgid "Access Control related"
+msgstr "Controllo dell'Accesso correlato"
+
+#: poll.rb:386
+msgid "Update"
+msgstr "Aggiorna"
+
+#: pollhead.rb:71
+#, fuzzy
+msgid "Edit Option"
+msgstr "Modifica Colonna"
+
+#: pollhead.rb:72
+#, fuzzy
+msgid "Delete Option"
+msgstr "Elimina Colonna"
+
+#: pollhead.rb:87 timepollhead.rb:162
+msgid "Last Edit"
+msgstr "Ultima Modifica"
+
+#: pollhead.rb:99
+msgid "Option"
+msgstr ""
+
+#: pollhead.rb:100
+msgid "Description (optional)"
+msgstr "Descrizione (opzionale)"
+
+#: pollhead.rb:101
+#, fuzzy
+msgid "Add/Edit Option"
+msgstr "Aggiungi/Modifica Colonna"
+
+#: pollhead.rb:102
+msgid "Preview"
+msgstr "Anteprima"
+
+#: pollhead.rb:103
+#, fuzzy
+msgid ""
+"Enter all Options (columns), you want to ask the participants of the poll. "
+"The participants will state one vote for every option you give here "
+"separately."
+msgstr ""
+"Inserisci tutte le possibilità (colonne) che vuoi chiedere ai partecipanti "
+"al sondaggio. I partecipanti potranno dare un voto per ogni possibilità che "
+"hai inserito separatamente."
+
+#: timepollhead.rb:113
+msgid ""
+"To add some time different to the default ones, please enter some string "
+"here (e.&thinsp;g., 09:30, morning, afternoon)."
+msgstr ""
+"Per aggiungere altri orari diversi da quello predefinito, inseriscili qui (e."
+"&thinsp;g., 09:30, mattina, pomeriggio)."
+
+#: timepollhead.rb:119
+msgid "This Time was already choosen."
+msgstr "Questo orario è già stato scelto"
+
+#: timepollhead.rb:193
+msgid "Earlier"
+msgstr "Prima"
+
+#: timepollhead.rb:198
+msgid "Later"
+msgstr "Più Tardi"
+
+#: timepollhead.rb:264
+msgid "Click on the dates to add or remove columns."
+msgstr "Seleziona le date per aggiungere o rimuovere le colonne."
+
+#: timepollhead.rb:312
+msgid "Optional:"
+msgstr ""
+
+#: timepollhead.rb:313
+msgid "Enter a concrete value as start time."
+msgstr "Inserisci una valore corretto come orario iniziale."
+
+#: timepollhead.rb:329
+msgid "Time"
+msgstr "Ora"
+
+#: timepollhead.rb:342
+msgid "Chosen"
+msgstr "Scelto"
+
+#: timepollhead.rb:343
+msgid "Not Chosen"
+msgstr "Non Scelto"
+
+#: timepollhead.rb:344
+msgid "Past"
+msgstr "Passato"
+
+#: timepollhead.rb:378
+msgid "Select the whole row"
+msgstr "Seleziona l'intera riga"
+
+#: timepollhead.rb:383
+msgid "Deselect the whole row"
+msgstr "Deseleziona l'intera riga"
+
+#: timepollhead.rb:427
+msgid "Add"
+msgstr "Aggiungi"
+
+#: timepollhead.rb:428
+msgid "e.&thinsp;g., 09:30, morning, afternoon"
+msgstr "e.&thinsp;g., 09:30, mattina, pomeriggio"
+
+#~ msgid "The link to your poll is:"
+#~ msgstr "Il link al tuo sondaggio è:"
+
+#~ msgid "To the Vote interface"
+#~ msgstr "Vai all'interfaccia di Votazione"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternativo"
+
+#~ msgid "Facoltativo:"
+#~ msgstr "Opzionale:"
